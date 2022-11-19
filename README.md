@@ -34,3 +34,7 @@
  - [Bairros Líquidos Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Horizontal.html)
  - [Bairros Líquidos Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Vertical.html)
  - [Bairros Líquidos Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Horizontal.html)
+ - [Bairros Líquidos Residencial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Vertical_map.html)
+ - [Bairros Líquidos Residencial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Horizontal_map.html)
+ - [Bairros Líquidos Comercial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Vertical_map.html)
+ - [Bairros Líquidos Comercial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Horizontal_map.html)
