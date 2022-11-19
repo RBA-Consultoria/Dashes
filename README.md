@@ -21,15 +21,15 @@
 ## Pessoas moradoras em domicílio
  - [Pessoas moradoras em  domicílio urbano](https://rba-consultoria.github.io/Dashes/HTMLs/Pessoas_moradoras_dom_urbano.html)
  - [Pessoas moradoras em  domicílio rural](https://rba-consultoria.github.io/Dashes/HTMLs/Pessoas_moradoras_dom_rural.html)
- ## Migração
+## Migração
  - [Migração rural UF](https://rba-consultoria.github.io/Dashes/HTMLs/Migracao_rural_uf.html)
  - [Migração rural RM](https://rba-consultoria.github.io/Dashes/HTMLs/Migracao_rural_rm.html)
  - [Migração Urbana UF](https://rba-consultoria.github.io/Dashes/HTMLs/Migracao_Urbana_uf.html)
  - [Migração Urbana RM](https://rba-consultoria.github.io/Dashes/HTMLs/Migracao_Urbana_rm.html)
- ## Domicílios particulares permanentes
+## Domicílios particulares permanentes
  - [Domicílios particulares permanentes rurais](https://rba-consultoria.github.io/Dashes/HTMLs/Domicilios_particulares_permanentes_rural.html)
  - [Domicílios particulares permanentes urbanos](https://rba-consultoria.github.io/Dashes/HTMLs/Domicilios_particulares_permanentes_urbano.html)
- ## Bairros Líquidos
+## Bairros Líquidos
  - [Bairros Líquidos Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Vertical.html)
  - [Bairros Líquidos Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Horizontal.html)
  - [Bairros Líquidos Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Vertical.html)
@@ -38,6 +38,6 @@
  - [Bairros Líquidos Residencial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosResidencial_Horizontal_map.html)
  - [Bairros Líquidos Comercial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Vertical_map.html)
  - [Bairros Líquidos Comercial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Bairros_LiquidosComercial_Horizontal_map.html)
- ## Evolução Imóveis
+## Evolução Imóveis
  - [Evolução Imóveis GIF](https://rba-consultoria.github.io/Dashes/HTMLs/evolucao_imoveis.gif)
  - [Evolução Imóveis MP4](https://rba-consultoria.github.io/Dashes/HTMLs/evolucao_imoveis.mp4)
