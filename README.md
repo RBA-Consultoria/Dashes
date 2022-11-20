@@ -4,7 +4,7 @@
 ## Transacionados por metragem
  - [Total Transacionados Tipologia Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Residencial_Vertical.html)
  - [Total Transacionados Tipologia Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Residencial_Horizontal.html)
- - [Total Transacionados Tipologia Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Comercial_Vertical.html.html)
+ - [Total Transacionados Tipologia Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Comercial_Vertical.html)
  - [Total Transacionados Tipologia Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Residencial_Horizontal.html)
 ## Transacionados por rua
  - [Total Transacionados Rua Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RuaResidencial_Vertical.html)
