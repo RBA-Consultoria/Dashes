@@ -124,3 +124,32 @@
 - [Taxa de Vacância por Bairro - Classe BB](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro_Classe_BB.html)
 - [Taxa de Vacância por Bairro - Classe B](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro_Classe_B.html)
 - [Taxa de Vacância por Bairro - Classe C](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro_Classe_C.html)
+
+## Custo de Produção
+- [Sinapi](https://rba-consultoria.github.io/Dashes/HTMLs/sinapi.html)
+- [INCC-DI](https://rba-consultoria.github.io/Dashes/HTMLs/incc_di.html)
+- [INCC-M](https://rba-consultoria.github.io/Dashes/HTMLs/incc_m.html)
+- [INCC-10](https://rba-consultoria.github.io/Dashes/HTMLs/incc_10.html)
+- [Custo Unitário Básico (CUB/m²)](https://rba-consultoria.github.io/Dashes/HTMLs/Custo_Unitario_Basico_m2.html)
+- [Situação Atual Construção](https://rba-consultoria.github.io/Dashes/HTMLs/Situacao_Atual_Construcao.html)
+- [FipeZAP Aluguel](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_aluguel.html)
+- [FipeZAP Venda](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_venda.html)
+
+## Modelo Corporativo
+- [Modelo](https://rba-consultoria.github.io/Dashes/HTMLs/modelo_coorp.html)
+- [Acurácia](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_coorp.html)
+- [Revisão](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_coorp.html)
+- [Modelo ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelo_itbi.html)
+- [Acurácia ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_itbi.html)
+- [Revisão ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_itbi.html)
+
+## Imobiliária Tradicionais
+- [Número de Estabelecimentos no Ramo Imobiliário](https://rba-consultoria.github.io/Dashes/HTMLs/Numero_Estabelecimentos_Imobiliario.html)
+- [Número de Trabalhadores](https://rba-consultoria.github.io/Dashes/HTMLs/Numero_trabalhadores.html)
+- [Número de Corretores de Imóveis por Estado](https://rba-consultoria.github.io/Dashes/HTMLs/Numero_Corretores_Imoveis_Estado.html)
+- [Número de Corretores de Imóveis por Capitais](https://rba-consultoria.github.io/Dashes/HTMLs/Numero_Corretores_Imoveis_Capitais.html)
+- [Salário Médio Brasil - Corrigido](https://rba-consultoria.github.io/Dashes/HTMLs/Salario_Medio_Brasil.html)
+- [Salário Médio Estado - Corrigido](https://rba-consultoria.github.io/Dashes/HTMLs/Salario_Medio_Estado.html)
+- [Salário Médio Capitais - Corrigido](https://rba-consultoria.github.io/Dashes/HTMLs/Salario_Medio_Capitais.html)
+- [Oferta Pública Inicial - Fundo Imobiliário](https://rba-consultoria.github.io/Dashes/HTMLs/IPO_Fundo_Imobiliario.html)
+- [Oferta Pública Inicial - Ações Construção Civil](https://rba-consultoria.github.io/Dashes/HTMLs/IPO_Acoes_Construcao_Civil.html)
