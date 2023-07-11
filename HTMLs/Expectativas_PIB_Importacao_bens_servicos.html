@@ -292,20 +292,18 @@
       document.body.style.height = "100%";
       document.documentElement.style.width = "100%";
       document.documentElement.style.height = "100%";
-      if (cel) {
-        cel.style.position = "absolute";
-        var pad = unpackPadding(sizing.padding);
-        cel.style.top = pad.top + "px";
-        cel.style.right = pad.right + "px";
-        cel.style.bottom = pad.bottom + "px";
-        cel.style.left = pad.left + "px";
-        el.style.width = "100%";
-        el.style.height = "100%";
-      }
+      cel.style.position = "absolute";
+      var pad = unpackPadding(sizing.padding);
+      cel.style.top = pad.top + "px";
+      cel.style.right = pad.right + "px";
+      cel.style.bottom = pad.bottom + "px";
+      cel.style.left = pad.left + "px";
+      el.style.width = "100%";
+      el.style.height = "100%";
 
       return {
-        getWidth: function() { return cel.offsetWidth; },
-        getHeight: function() { return cel.offsetHeight; }
+        getWidth: function() { return cel.getBoundingClientRect().width; },
+        getHeight: function() { return cel.getBoundingClientRect().height; }
       };
 
     } else {
@@ -313,8 +311,8 @@
       el.style.height = px(sizing.height);
 
       return {
-        getWidth: function() { return el.offsetWidth; },
-        getHeight: function() { return el.offsetHeight; }
+        getWidth: function() { return cel.getBoundingClientRect().width; },
+        getHeight: function() { return cel.getBoundingClientRect().height; }
       };
     }
   }
@@ -538,8 +536,8 @@
 
           elementData(el, "initialized", true);
           if (bindingDef.initialize) {
-            var result = bindingDef.initialize(el, el.offsetWidth,
-              el.offsetHeight);
+            var rect = el.getBoundingClientRect();
+            var result = bindingDef.initialize(el, rect.width, rect.height);
             elementData(el, "init_result", result);
           }
         }
@@ -581,29 +579,30 @@
       forEach(matches, function(el) {
         var sizeObj = initSizing(el, binding);
 
+        var getSize = function(el) {
+          if (sizeObj) {
+            return {w: sizeObj.getWidth(), h: sizeObj.getHeight()}
+          } else {
+            var rect = el.getBoundingClientRect();
+            return {w: rect.width, h: rect.height}
+          }
+        };
+
         if (hasClass(el, "html-widget-static-bound"))
           return;
         el.className = el.className + " html-widget-static-bound";
 
         var initResult;
         if (binding.initialize) {
-          initResult = binding.initialize(el,
-            sizeObj ? sizeObj.getWidth() : el.offsetWidth,
-            sizeObj ? sizeObj.getHeight() : el.offsetHeight
-          );
+          var size = getSize(el);
+          initResult = binding.initialize(el, size.w, size.h);
           elementData(el, "init_result", initResult);
         }
 
         if (binding.resize) {
-          var lastSize = {
-            w: sizeObj ? sizeObj.getWidth() : el.offsetWidth,
-            h: sizeObj ? sizeObj.getHeight() : el.offsetHeight
-          };
+          var lastSize = getSize(el);
           var resizeHandler = function(e) {
-            var size = {
-              w: sizeObj ? sizeObj.getWidth() : el.offsetWidth,
-              h: sizeObj ? sizeObj.getHeight() : el.offsetHeight
-            };
+            var size = getSize(el);
             if (size.w === 0 && size.h === 0)
               return;
             if (size.w === lastSize.w && size.h === lastSize.h)
@@ -905,7 +904,6 @@
     return result;
   }
 })();
-
 </script>
 <script>
 HTMLWidgets.widget({
@@ -1926,11 +1924,9 @@ var n=t("buffer"),i=n.Buffer;function a(t,e){for(var r in t)e[r]=t[r]}function o
 </head>
 <body style="background-color: white;">
 <div id="htmlwidget_container">
-<div id="htmlwidget-f7e46479ac332e872096" class="plotly html-widget" style="width:100%;height:400px;">
-
+  <div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5f0f53bffd50577e50bb" style="width:100%;height:400px;"></div>
 </div>
-</div>
-<script type="application/json" data-for="htmlwidget-f7e46479ac332e872096">{"x":{"visdat":{"c688232e232b":["function () ","plotlyVisDat"]},"cur_data":"c688232e232b","attrs":{"c688232e232b":{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[3.92213076923077,3.45875,2.83925909090909,2.45133,2.97166,3.01302380952381,3.6171347826087,3.37971904761905,3.3027619047619,3.08254090909091,2.24961578947368,1.82616818181818],"mode":"lines","type":"scatter","name":"2023","line":{"shape":"spline","width":4},"inherit":true},"c688232e232b.1":{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[4.25097692307692,4.01873181818182,3.34951818181818,3.53358,3.568925,3.73245714285714,4.52316086956522,5.48445714285714,5.04454761904762,4.52141818181818,4.56238947368421,4.24486363636364],"mode":"lines","type":"scatter","name":"2024","line":{"shape":"spline","width":4},"inherit":true},"c688232e232b.2":{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[3.95986153846154,3.82426818181818,3.59743636363636,3.53515,3.49792,3.55050952380952,3.50789130434783,3.82267619047619,3.85825714285714,3.88056818181818,3.85904736842105,3.82642727272727],"mode":"lines","type":"scatter","name":"2025","line":{"shape":"spline","width":4},"inherit":true},"c688232e232b.3":{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[3.85196923076923,3.90265909090909,3.54614090909091,3.24881,3.348835,3.32605714285714,3.0676347826087,3.44791428571429,3.55907142857143,3.86538181818182,3.863,3.76582],"mode":"lines","type":"scatter","name":"2026","line":{"shape":"spline","width":4},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Expectativas do PIB Importação de bens e serviços (%)","xaxis":{"domain":[0,1],"automargin":true,"title":"Data","type":"category","categoryorder":"array","categoryarray":["2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02"]},"yaxis":{"domain":[0,1],"automargin":true,"title":[]},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"y":[3.92213076923077,3.45875,2.83925909090909,2.45133,2.97166,3.01302380952381,3.6171347826087,3.37971904761905,3.3027619047619,3.08254090909091,2.24961578947368,1.82616818181818],"mode":"lines","type":"scatter","name":"2023","line":{"color":"rgba(31,119,180,1)","shape":"spline","width":4},"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"y":[4.25097692307692,4.01873181818182,3.34951818181818,3.53358,3.568925,3.73245714285714,4.52316086956522,5.48445714285714,5.04454761904762,4.52141818181818,4.56238947368421,4.24486363636364],"mode":"lines","type":"scatter","name":"2024","line":{"color":"rgba(255,127,14,1)","shape":"spline","width":4},"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"y":[3.95986153846154,3.82426818181818,3.59743636363636,3.53515,3.49792,3.55050952380952,3.50789130434783,3.82267619047619,3.85825714285714,3.88056818181818,3.85904736842105,3.82642727272727],"mode":"lines","type":"scatter","name":"2025","line":{"color":"rgba(44,160,44,1)","shape":"spline","width":4},"marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08","2022-07","2022-06","2022-05","2022-04","2022-03"],"y":[3.85196923076923,3.90265909090909,3.54614090909091,3.24881,3.348835,3.32605714285714,3.0676347826087,3.44791428571429,3.55907142857143,3.86538181818182,3.863,3.76582],"mode":"lines","type":"scatter","name":"2026","line":{"color":"rgba(214,39,40,1)","shape":"spline","width":4},"marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
-<script type="application/htmlwidget-sizing" data-for="htmlwidget-f7e46479ac332e872096">{"viewer":{"width":"100%","height":400,"padding":0,"fill":true},"browser":{"width":"100%","height":400,"padding":0,"fill":true}}</script>
+<script type="application/json" data-for="htmlwidget-5f0f53bffd50577e50bb">{"x":{"visdat":{"1b806af7627b":["function () ","plotlyVisDat"]},"cur_data":"1b806af7627b","attrs":{"1b806af7627b":{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[0.43524,1.09231428571429,2.22794545454545,2.60135555555556,3.22846956521739,3.84191111111111,3.45875,2.83925909090909,2.45133,2.97166,3.01302380952381,3.6171347826087],"mode":"lines","type":"scatter","name":"2023","line":{"shape":"spline","width":4},"inherit":true},"1b806af7627b.1":{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[2.8076,2.96640952380952,3.09436363636364,3.33827777777778,3.77699130434783,4.17843888888889,4.01873181818182,3.34951818181818,3.53358,3.568925,3.73245714285714,4.52316086956522],"mode":"lines","type":"scatter","name":"2024","line":{"shape":"spline","width":4},"inherit":true},"1b806af7627b.2":{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[2.82,3.30754761904762,3.42972272727273,3.32453333333333,3.96980869565217,4.00226111111111,3.82426818181818,3.59743636363636,3.53515,3.49792,3.55050952380952,3.50789130434783],"mode":"lines","type":"scatter","name":"2025","line":{"shape":"spline","width":4},"inherit":true},"1b806af7627b.3":{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"y":[3.0847,3.53409523809524,3.61616818181818,3.29952777777778,3.71520434782609,3.86150555555556,3.90265909090909,3.54614090909091,3.24881,3.348835,3.32605714285714,3.0676347826087],"mode":"lines","type":"scatter","name":"2026","line":{"shape":"spline","width":4},"inherit":true}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Expectativas do PIB Importação de bens e serviços","xaxis":{"domain":[0,1],"automargin":true,"title":"Data<br><sup>Fonte: Bacen<\/sup>","type":"category","categoryorder":"array","categoryarray":["2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Porcentagem (%)"},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"y":[0.43524,1.09231428571429,2.22794545454545,2.60135555555556,3.22846956521739,3.84191111111111,3.45875,2.83925909090909,2.45133,2.97166,3.01302380952381,3.6171347826087],"mode":"lines","type":"scatter","name":"2023","line":{"color":"rgba(31,119,180,1)","shape":"spline","width":4},"marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"y":[2.8076,2.96640952380952,3.09436363636364,3.33827777777778,3.77699130434783,4.17843888888889,4.01873181818182,3.34951818181818,3.53358,3.568925,3.73245714285714,4.52316086956522],"mode":"lines","type":"scatter","name":"2024","line":{"color":"rgba(255,127,14,1)","shape":"spline","width":4},"marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"y":[2.82,3.30754761904762,3.42972272727273,3.32453333333333,3.96980869565217,4.00226111111111,3.82426818181818,3.59743636363636,3.53515,3.49792,3.55050952380952,3.50789130434783],"mode":"lines","type":"scatter","name":"2025","line":{"color":"rgba(44,160,44,1)","shape":"spline","width":4},"marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["2023-07","2023-06","2023-05","2023-04","2023-03","2023-02","2023-01","2022-12","2022-11","2022-10","2022-09","2022-08"],"y":[3.0847,3.53409523809524,3.61616818181818,3.29952777777778,3.71520434782609,3.86150555555556,3.90265909090909,3.54614090909091,3.24881,3.348835,3.32605714285714,3.0676347826087],"mode":"lines","type":"scatter","name":"2026","line":{"color":"rgba(214,39,40,1)","shape":"spline","width":4},"marker":{"color":"rgba(214,39,40,1)","line":{"color":"rgba(214,39,40,1)"}},"error_y":{"color":"rgba(214,39,40,1)"},"error_x":{"color":"rgba(214,39,40,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-5f0f53bffd50577e50bb">{"viewer":{"width":"100%","height":400,"padding":0,"fill":true},"browser":{"width":"100%","height":400,"padding":0,"fill":true}}</script>
 </body>
 </html>
