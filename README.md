@@ -88,10 +88,10 @@
 - [Volume de Vendas (R$) por Região Comercial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Volume_Vendas_regiaoComercial_Horizontal_map.html)
 - [Volume de Vendas (R$) por Região Comercial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Volume_Vendas_regiaoComercial_Vertical_map.html)
 ## Transacionados por região
- - [Total Transacionados Região Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoResidencial_Vertical.html)
- - [Total Transacionados Região Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoResidencial_Horizontal.html)
- - [Total Transacionados Região Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoComercial_Vertical.html)
- - [Total Transacionados Região Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoComercial_Horizontal.html)
+- [Total Transacionados Região Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoResidencial_Vertical.html)
+- [Total Transacionados Região Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoResidencial_Horizontal.html)
+- [Total Transacionados Região Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoComercial_Vertical.html)
+- [Total Transacionados Região Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_RegiaoComercial_Horizontal.html)
 - [Total Transacionados Região Residencial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Transacionados_RegiaoResidencial_Vertical_map.html)
 - [Total Transacionados Região Residencial Horizontal Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Transacionados_RegiaoResidencial_Horizontal_map.html)
 - [Total Transacionados Região Comercial Vertical Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/Transacionados_RegiaoComercial_Vertical_map.html)
@@ -132,8 +132,11 @@
 - [INCC-10](https://rba-consultoria.github.io/Dashes/HTMLs/incc_10.html)
 - [Custo Unitário Básico (CUB/m²)](https://rba-consultoria.github.io/Dashes/HTMLs/Custo_Unitario_Basico_m2.html)
 - [Situação Atual Construção](https://rba-consultoria.github.io/Dashes/HTMLs/Situacao_Atual_Construcao.html)
-- [FipeZAP Aluguel](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_aluguel.html)
-- [FipeZAP Venda](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_venda.html)
+- [Expectativa Construção](https://rba-consultoria.github.io/Dashes/HTMLs/Expectativas_Construcao.html)
+- [FipeZAP Aluguel Residencial](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_aluguel.html)
+- [FipeZAP Venda Residencial](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_venda.html)
+- [FipeZAP Aluguel Comerciais](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_aluguel_comerc.html)
+- [FipeZAP Venda Comerciais](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_venda_comerc.html)
 
 ## Modelo Corporativo
 - [Modelo](https://rba-consultoria.github.io/Dashes/HTMLs/modelo_coorp.html)
