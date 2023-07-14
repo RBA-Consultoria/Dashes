@@ -99,10 +99,13 @@
 ## Corporate
 - [Total de Imóveis por Ano](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Imoveis_Ano.html)
 - [Total de Imóveis por Ano e Qualidade de Imóveis](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Imoveis_Ano_Qualid_Imoveis.html)
+
 - [Preço/m² por Ano](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Ano.html)
 - [Preço/m² por Ano e Qualidade de Imóveis](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Ano_Qualid_Imoveis.html)
+
 - [Taxa de Vacância por Ano](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Ano.html)
 - [Taxa de Vacância por Ano e Qualidade de Imóveis](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Ano_Qualid_Imoveis.html)
+
 - [Total de imóveis por Bairro](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro.html)
 - [Total de imóveis por Bairro - Classe AAA](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro_Classe_AAA.html)
 - [Total de imóveis por Bairro - Classe AA](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro_Classe_AA.html)
@@ -110,6 +113,7 @@
 - [Total de imóveis por Bairro - Classe BB](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro_Classe_BB.html)
 - [Total de imóveis por Bairro - Classe B](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro_Classe_B.html)
 - [Total de imóveis por Bairro - Classe C](https://rba-consultoria.github.io/Dashes/HTMLs/Total_imoveis_Bairro_Classe_C.html)
+
 - [Preço/m² por Bairro](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro.html)
 - [Preço/m² por Bairro - Classe AAA](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro_Classe_AAA.html)
 - [Preço/m² por Bairro - Classe AA](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro_Classe_AA.html)
@@ -117,6 +121,7 @@
 - [Preço/m² por Bairro - Classe BB](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro_Classe_BB.html)
 - [Preço/m² por Bairro - Classe B](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro_Classe_B.html)
 - [Preço/m² por Bairro - Classe C](https://rba-consultoria.github.io/Dashes/HTMLs/Preço_m2_Bairro_Classe_C.html)
+
 - [Taxa de Vacância por Bairro](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro.html)
 - [Taxa de Vacância por Bairro - Classe AAA](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro_Classe_AAA.html)
 - [Taxa de Vacância por Bairro - Classe AA](https://rba-consultoria.github.io/Dashes/HTMLs/Taxa_Vacancia_Bairro_Classe_AA.html)
@@ -139,28 +144,37 @@
 - [FipeZAP Venda Comerciais](https://rba-consultoria.github.io/Dashes/HTMLs/fipezap_venda_comerc.html)
 
 ## Modelo Corporativo
-- [Modelo](https://rba-consultoria.github.io/Dashes/HTMLs/modelo_coorp.html)
-- [Acurácia](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_coorp.html)
-- [Revisão](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_coorp.html)
-- [Modelo ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelo_itbi.html)
+- [Hedonic Index Corporate](https://rba-consultoria.github.io/Dashes/HTMLs/hedonic_corporate.html)
+- [Random Forest Index Corporate](https://rba-consultoria.github.io/Dashes/HTMLs/random_forest_corporate.html)
+- [Modelo Corporate](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_corporate.html)
+- [Acurácia Corporate](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_coorp.html)
+- [Revisão Corporate](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_coorp.html)
+
 - [Repeat Sales Index Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/repeat_sales_residencial_vertical_itbi.html)
 - [Hedonic Index Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/hedonic_residencial_vertical_itbi.html)
 - [Random Forest Index Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/random_forest_residencial_vertical_itbi.html)
+- [Modelo Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_residencial_vertical_itbi.html)
 - [Acurácia Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_residencial_vertical_itbi.html)
 - [Revisão Residencial Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_residencial_vertical_itbi.html)
+
 - [Repeat Sales Index Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/repeat_sales_residencial_horizontal_itbi.html)
 - [Hedonic Index Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/hedonic_residencial_horizontal_itbi.html)
 - [Random Forest Index Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/random_forest_residencial_horizontal_itbi.html)
+- [Modelo Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_residencial_horizontal_itbi.html)
 - [Acurácia Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_residencial_horizontal_itbi.html)
 - [Revisão Residencial Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_residencial_horizontal_itbi.html)
+
 - [Repeat Sales Index Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/repeat_sales_comercial_vertical_itbi.html)
 - [Hedonic Index Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/hedonic_comercial_vertical_itbi.html)
 - [Random Forest Index Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/random_forest_comercial_vertical_itbi.html)
+- [Modelo Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_comercial_vertical_itbi.html)
 - [Acurácia Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_comercial_vertical_itbi.html)
 - [Revisão Condomínio Vertical ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_comercial_vertical_itbi.html)
+
 - [Repeat Sales Index Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/repeat_sales_comercial_horizontal_itbi.html)
 - [Hedonic Index Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/hedonic_comercial_horizontal_itbi.html)
 - [Random Forest Index Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/random_forest_comercial_horizontal_itbi.html)
+- [Modelo Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_comercial_horizontal_itbi.html)
 - [Acurácia Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/acuracia_comercial_horizontal_itbi.html)
 - [Revisão Condomínio Horizontal ITBI](https://rba-consultoria.github.io/Dashes/HTMLs/revisao_comercial_horizontal_itbi.html)
 
