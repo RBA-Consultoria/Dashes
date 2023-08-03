@@ -257,3 +257,8 @@
 - [Porcentagem de Corretores em Relação ao Total de Trabalhadores por Unidades federativas](https://rba-consultoria.github.io/Dashes/HTMLs/porc_corretores_por_trab_e_uf.html)
 - [Oferta Pública Inicial - Fundo Imobiliário](https://rba-consultoria.github.io/Dashes/HTMLs/IPO_Fundo_Imobiliario.html)
 - [Oferta Pública Inicial - Ações Construção Civil](https://rba-consultoria.github.io/Dashes/HTMLs/IPO_Acoes_Construcao_Civil.html)
+- [Renda Média dos Corretores por Unidades federativas](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_corre_uf.html)
+- [Renda Média dos Trabalhadores por Unidades federativas](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_trab_uf.html)
+- [Renda Média dos Trabalhadores](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_trab.html)
+- [Renda Média dos Corretores](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_corretores.html)
+ 
