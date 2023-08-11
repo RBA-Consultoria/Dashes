@@ -262,3 +262,10 @@
 - [Renda Média dos Trabalhadores](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_trab.html)
 - [Renda Média dos Corretores](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_corretores.html)
  
+
+## Affordability
+- [Affordability em São Paulo](https://rba-consultoria.github.io/Dashes/HTMLs/affordability_sp.html)
+- [Salário Médio e Valor Médio dos Imóveis](https://rba-consultoria.github.io/Dashes/HTMLs/salario_imoveis_medio.html)
+- [5 Profissões com Menor Poder de Compra](https://rba-consultoria.github.io/Dashes/HTMLs/5Profissoes_Menor_Poder.html)
+- [5 Profissões com Maior Poder de Compra](https://rba-consultoria.github.io/Dashes/HTMLs/5Profissoes_Maior_Poder.html)
+- [Affordability por Bairro - São Paulos](https://rba-consultoria.github.io/Dashes/HTMLs/affordability_bairro_sp.html)
