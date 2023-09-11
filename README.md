@@ -271,6 +271,9 @@
 - [Renda Média dos Corretores por Regiões](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_corre_regiao.html)
 - [Renda Média dos Trabalhadores por Regiões](https://rba-consultoria.github.io/Dashes/HTMLs/renda_med_trab_regiao.html) 
 - [Porcentagem de Corretores em Relação ao Total de Trabalhadores por Regiões](https://rba-consultoria.github.io/Dashes/HTMLs/porc_corretores_por_trab_e_regiao.html)
+
+
+## Ciclo de Vida
 - [Idade Vs Tipo Domicílio](https://rba-consultoria.github.io/Dashes/HTMLs/IdadeVsDomicilio.html) 
 - [Grupo Familiar Vs Tipo Domicílio](https://rba-consultoria.github.io/Dashes/HTMLs/GrupoFamiliarVsDomicilio.html)
 
