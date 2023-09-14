@@ -276,6 +276,10 @@
 ## Ciclo de Vida
 - [Idade Vs Tipo Domicílio](https://rba-consultoria.github.io/Dashes/HTMLs/IdadeVsDomicilio.html) 
 - [Grupo Familiar Vs Tipo Domicílio](https://rba-consultoria.github.io/Dashes/HTMLs/GrupoFamiliarVsDomicilio.html)
+- [Grupo Familiar Vs Tipo Domicílio por UF](https://rba-consultoria.github.io/Dashes/HTMLs/GrupoFamiliarVsDomicilioUF.html)
+- [Idade Vs Tipo Domicílio por UF](https://rba-consultoria.github.io/Dashes/HTMLs/IdadeVsDomicilioUF.html)
+- [Grupo Familiar Vs Tipo Domicílio por Capital](https://rba-consultoria.github.io/Dashes/HTMLs/GrupoFamiliarVsDomicilioCapital.html)
+- [Idade Vs Tipo Domicílio por Capital](https://rba-consultoria.github.io/Dashes/HTMLs/IdadeVsDomicilioCapital.html)
 
 
 ## Affordability
