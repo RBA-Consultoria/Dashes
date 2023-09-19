@@ -295,3 +295,10 @@
 - [Total de Empregados](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Empregos.html)
 - [Total de Empregados por Bairro - São Paulo](https://rba-consultoria.github.io/Dashes/HTMLs/total_empregados_bairro_sp.html)
 - [Total de Empregados por Bairro - São Paulo MAPA](https://rba-consultoria.github.io/Dashes/HTMLs/total_empregados_bairro_sp_mapa.html)
+
+
+>### Índice de Demanda
+- [Demand Index Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_horizontal_itbi_UF.html)
+- [Demand Index Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_vertical_itbi_UF.html)
+- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_horizontal_itbi_UF.html)
+- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_vertical_itbi_UF.html)
