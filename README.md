@@ -298,7 +298,15 @@
 
 
 >### Índice de Demanda
-- [Demand Index Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_horizontal_itbi_UF.html)
-- [Demand Index Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_vertical_itbi_UF.html)
-- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_horizontal_itbi_UF.html)
-- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_vertical_itbi_UF.html)
+- [Demand Index Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_horizontal_itbi.html)
+- [Demand Index Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_vertical_itbi.html)
+- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_horizontal_itbi.html)
+- [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_vertical_itbi.html)
+- [Demand Index Comercial Horizontal - UF](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_horizontal_itbi_UF.html)
+- [Demand Index Comercial Vertical - UF](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_vertical_itbi_UF.html)
+- [Demand Index Residencial Horizontal - UF](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_horizontal_itbi_UF.html)
+- [Demand Index Residencial Horizontal - UF](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_vertical_itbi_UF.html)
+- [Diagrama de Dispersão de Moran - Comercial Horizontal - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_horizontal_itbi_UF.html)
+- [Diagrama de Dispersão de Moran - Comercial Vertical - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_comercial_vertical_itbi_UF.html)
+- [Diagrama de Dispersão de Moran - Residencial Horizontal - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_horizontal_itbi_UF.html)
+- [Diagrama de Dispersão de Moran - Residencial Horizontal - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_index_residencial_vertical_itbi_UF.html)
