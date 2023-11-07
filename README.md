@@ -297,7 +297,7 @@
 - [Total de Empregados por Bairro - São Paulo MAPA](https://rba-consultoria.github.io/Dashes/HTMLs/total_empregados_bairro_sp_mapa.html)
 
 
->### Índice de Demanda
+### Índice de Demanda
 - [Demand Index Comercial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_Index_comercial_horizontal_itbi.html)
 - [Demand Index Comercial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_Index_comercial_vertical_itbi.html)
 - [Demand Index Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/modelos_Demand_Index_residencial_horizontal_itbi.html)
@@ -310,3 +310,11 @@
 - [Diagrama de Dispersão de Moran - Comercial Vertical - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/DiagramaDispersaoMoranComercialVerticalMap.html)
 - [Diagrama de Dispersão de Moran - Residencial Horizontal - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/DiagramaDispersaoMoranResidencialHorizontalMap.html)
 - [Diagrama de Dispersão de Moran - Residencial Vertical - Mapa](https://rba-consultoria.github.io/Dashes/HTMLs/DiagramaDispersaoMoranResidencialVerticalMap.html)
+
+### Modelo de Demanda
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo racional - log](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod1_log.html)
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo racional](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod1.html)
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo adaptativo - log](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod2_log.html)
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo adaptativo](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod2.html)
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo misto - log](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod3_log.html)
+- [Demanda de Imóveis em São Paulo (+12 meses) modelo misto](https://rba-consultoria.github.io/Dashes/HTMLs/demanda_imv_mod3.html)
