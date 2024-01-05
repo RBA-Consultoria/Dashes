@@ -1,6 +1,7 @@
 # Dashes
 ## Transações
  - [Total Transações por tipologia](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacoes_Tipologia.html)
+ - [Total Transações por tipologia e bairro](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacoes_Tipologia_por_bairro.html)
 ## Transacionados por metragem
  - [Total Transacionados Tipologia Residencial Vertical](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Residencial_Vertical.html)
  - [Total Transacionados Tipologia Residencial Horizontal](https://rba-consultoria.github.io/Dashes/HTMLs/Total_Transacionados_Tipologia_Residencial_Horizontal.html)
